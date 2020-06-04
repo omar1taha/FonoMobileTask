@@ -13,7 +13,7 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
-class ParentClient: NSObject {
+class parentClient: NSObject {
     
     //let storedToken = UserDefaults.standard.string(forKey: PHOTOGRAPHER_TOKEN)
     
