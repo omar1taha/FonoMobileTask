@@ -1,0 +1,6 @@
+framework module Pods_FonoMobileTask_FonoMobileTaskUITests {
+  umbrella header "Pods-FonoMobileTask-FonoMobileTaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

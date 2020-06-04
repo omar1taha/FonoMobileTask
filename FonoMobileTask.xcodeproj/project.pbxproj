@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D7895B2488FEB700FEBB69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7895A2488FEB700FEBB69 /* AppDelegate.swift */; };
+		18D7895D2488FEB700FEBB69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7895C2488FEB700FEBB69 /* ViewController.swift */; };
+		18D789602488FEB700FEBB69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D7895E2488FEB700FEBB69 /* Main.storyboard */; };
+		18D789622488FEB700FEBB69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D789612488FEB700FEBB69 /* Assets.xcassets */; };
+		18D789652488FEB700FEBB69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D789632488FEB700FEBB69 /* LaunchScreen.storyboard */; };
+		18D789702488FEB800FEBB69 /* FonoMobileTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7896F2488FEB800FEBB69 /* FonoMobileTaskTests.swift */; };
+		18D7897B2488FEB800FEBB69 /* FonoMobileTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7897A2488FEB800FEBB69 /* FonoMobileTaskUITests.swift */; };
+		2ED7CD152B773BF301914E55 /* Pods_FonoMobileTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D90067FE9251054E681CA0 /* Pods_FonoMobileTask.framework */; };
+		44EB25C7A658097CA6D40848 /* Pods_FonoMobileTask_FonoMobileTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 391474D58C19775FC02357C9 /* Pods_FonoMobileTask_FonoMobileTaskUITests.framework */; };
+		B96913A799214306C0DF6E6D /* Pods_FonoMobileTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED3067E2919CA9FAC6CC3A2 /* Pods_FonoMobileTaskTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18D7896C2488FEB800FEBB69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D7894F2488FEB700FEBB69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D789562488FEB700FEBB69;
+			remoteInfo = FonoMobileTask;
+		};
+		18D789772488FEB800FEBB69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D7894F2488FEB700FEBB69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D789562488FEB700FEBB69;
+			remoteInfo = FonoMobileTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18D789572488FEB700FEBB69 /* FonoMobileTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FonoMobileTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D7895A2488FEB700FEBB69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18D7895C2488FEB700FEBB69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18D7895F2488FEB700FEBB69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D789612488FEB700FEBB69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D789642488FEB700FEBB69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D789662488FEB700FEBB69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D7896B2488FEB800FEBB69 /* FonoMobileTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FonoMobileTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D7896F2488FEB800FEBB69 /* FonoMobileTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FonoMobileTaskTests.swift; sourceTree = "<group>"; };
+		18D789712488FEB800FEBB69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D789762488FEB800FEBB69 /* FonoMobileTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FonoMobileTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D7897A2488FEB800FEBB69 /* FonoMobileTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FonoMobileTaskUITests.swift; sourceTree = "<group>"; };
+		18D7897C2488FEB800FEBB69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		391474D58C19775FC02357C9 /* Pods_FonoMobileTask_FonoMobileTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FonoMobileTask_FonoMobileTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA59F4F5AAB045BA7938372 /* Pods-FonoMobileTask-FonoMobileTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FonoMobileTask-FonoMobileTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-FonoMobileTask-FonoMobileTaskUITests/Pods-FonoMobileTask-FonoMobileTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		94E37F354664BF9A49F00A5B /* Pods-FonoMobileTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FonoMobileTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-FonoMobileTaskTests/Pods-FonoMobileTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7E30ED04F928735427E1F7D /* Pods-FonoMobileTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FonoMobileTaskTests.release.xcconfig"; path = "Target Support Files/Pods-FonoMobileTaskTests/Pods-FonoMobileTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD227B218012C96B48B2556A /* Pods-FonoMobileTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FonoMobileTask.debug.xcconfig"; path = "Target Support Files/Pods-FonoMobileTask/Pods-FonoMobileTask.debug.xcconfig"; sourceTree = "<group>"; };
+		AED3067E2919CA9FAC6CC3A2 /* Pods_FonoMobileTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FonoMobileTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD497F45E30F80AB474A905 /* Pods-FonoMobileTask-FonoMobileTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FonoMobileTask-FonoMobileTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-FonoMobileTask-FonoMobileTaskUITests/Pods-FonoMobileTask-FonoMobileTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD3730E2018B04D0404E5BF1 /* Pods-FonoMobileTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FonoMobileTask.release.xcconfig"; path = "Target Support Files/Pods-FonoMobileTask/Pods-FonoMobileTask.release.xcconfig"; sourceTree = "<group>"; };
+		F2D90067FE9251054E681CA0 /* Pods_FonoMobileTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FonoMobileTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D789542488FEB700FEBB69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED7CD152B773BF301914E55 /* Pods_FonoMobileTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D789682488FEB800FEBB69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96913A799214306C0DF6E6D /* Pods_FonoMobileTaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D789732488FEB800FEBB69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44EB25C7A658097CA6D40848 /* Pods_FonoMobileTask_FonoMobileTaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D7894E2488FEB700FEBB69 = {
+			isa = PBXGroup;
+			children = (
+				18D789592488FEB700FEBB69 /* FonoMobileTask */,
+				18D7896E2488FEB800FEBB69 /* FonoMobileTaskTests */,
+				18D789792488FEB800FEBB69 /* FonoMobileTaskUITests */,
+				18D789582488FEB700FEBB69 /* Products */,
+				7CAD0D20F3D0CD0D8C0752FC /* Pods */,
+				5C4EEE3BEEB4BAAA9A476A02 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18D789582488FEB700FEBB69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D789572488FEB700FEBB69 /* FonoMobileTask.app */,
+				18D7896B2488FEB800FEBB69 /* FonoMobileTaskTests.xctest */,
+				18D789762488FEB800FEBB69 /* FonoMobileTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D789592488FEB700FEBB69 /* FonoMobileTask */ = {
+			isa = PBXGroup;
+			children = (
+				18D7895A2488FEB700FEBB69 /* AppDelegate.swift */,
+				18D7895C2488FEB700FEBB69 /* ViewController.swift */,
+				18D7895E2488FEB700FEBB69 /* Main.storyboard */,
+				18D789612488FEB700FEBB69 /* Assets.xcassets */,
+				18D789632488FEB700FEBB69 /* LaunchScreen.storyboard */,
+				18D789662488FEB700FEBB69 /* Info.plist */,
+			);
+			path = FonoMobileTask;
+			sourceTree = "<group>";
+		};
+		18D7896E2488FEB800FEBB69 /* FonoMobileTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				18D7896F2488FEB800FEBB69 /* FonoMobileTaskTests.swift */,
+				18D789712488FEB800FEBB69 /* Info.plist */,
+			);
+			path = FonoMobileTaskTests;
+			sourceTree = "<group>";
+		};
+		18D789792488FEB800FEBB69 /* FonoMobileTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18D7897A2488FEB800FEBB69 /* FonoMobileTaskUITests.swift */,
+				18D7897C2488FEB800FEBB69 /* Info.plist */,
+			);
+			path = FonoMobileTaskUITests;
+			sourceTree = "<group>";
+		};
+		5C4EEE3BEEB4BAAA9A476A02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2D90067FE9251054E681CA0 /* Pods_FonoMobileTask.framework */,
+				391474D58C19775FC02357C9 /* Pods_FonoMobileTask_FonoMobileTaskUITests.framework */,
+				AED3067E2919CA9FAC6CC3A2 /* Pods_FonoMobileTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CAD0D20F3D0CD0D8C0752FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD227B218012C96B48B2556A /* Pods-FonoMobileTask.debug.xcconfig */,
+				DD3730E2018B04D0404E5BF1 /* Pods-FonoMobileTask.release.xcconfig */,
+				CAD497F45E30F80AB474A905 /* Pods-FonoMobileTask-FonoMobileTaskUITests.debug.xcconfig */,
+				8FA59F4F5AAB045BA7938372 /* Pods-FonoMobileTask-FonoMobileTaskUITests.release.xcconfig */,
+				94E37F354664BF9A49F00A5B /* Pods-FonoMobileTaskTests.debug.xcconfig */,
+				A7E30ED04F928735427E1F7D /* Pods-FonoMobileTaskTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D789562488FEB700FEBB69 /* FonoMobileTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D7897F2488FEB800FEBB69 /* Build configuration list for PBXNativeTarget "FonoMobileTask" */;
+			buildPhases = (
+				D7FDC9F20D0C5CFD8EDC8A6E /* [CP] Check Pods Manifest.lock */,
+				18D789532488FEB700FEBB69 /* Sources */,
+				18D789542488FEB700FEBB69 /* Frameworks */,
+				18D789552488FEB700FEBB69 /* Resources */,
+				97138D55014CF968B5602C6E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FonoMobileTask;
+			productName = FonoMobileTask;
+			productReference = 18D789572488FEB700FEBB69 /* FonoMobileTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18D7896A2488FEB800FEBB69 /* FonoMobileTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D789822488FEB800FEBB69 /* Build configuration list for PBXNativeTarget "FonoMobileTaskTests" */;
+			buildPhases = (
+				BBFF576F53EBE3BE7EC73DBD /* [CP] Check Pods Manifest.lock */,
+				18D789672488FEB800FEBB69 /* Sources */,
+				18D789682488FEB800FEBB69 /* Frameworks */,
+				18D789692488FEB800FEBB69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D7896D2488FEB800FEBB69 /* PBXTargetDependency */,
+			);
+			name = FonoMobileTaskTests;
+			productName = FonoMobileTaskTests;
+			productReference = 18D7896B2488FEB800FEBB69 /* FonoMobileTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18D789752488FEB800FEBB69 /* FonoMobileTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D789852488FEB800FEBB69 /* Build configuration list for PBXNativeTarget "FonoMobileTaskUITests" */;
+			buildPhases = (
+				C1791E2E2C2D503D8E145854 /* [CP] Check Pods Manifest.lock */,
+				18D789722488FEB800FEBB69 /* Sources */,
+				18D789732488FEB800FEBB69 /* Frameworks */,
+				18D789742488FEB800FEBB69 /* Resources */,
+				023AA0E3B3E07AF5D070CCCA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D789782488FEB800FEBB69 /* PBXTargetDependency */,
+			);
+			name = FonoMobileTaskUITests;
+			productName = FonoMobileTaskUITests;
+			productReference = 18D789762488FEB800FEBB69 /* FonoMobileTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D7894F2488FEB700FEBB69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = yourParts;
+				TargetAttributes = {
+					18D789562488FEB700FEBB69 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					18D7896A2488FEB800FEBB69 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 18D789562488FEB700FEBB69;
+					};
+					18D789752488FEB800FEBB69 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 18D789562488FEB700FEBB69;
+					};
+				};
+			};
+			buildConfigurationList = 18D789522488FEB700FEBB69 /* Build configuration list for PBXProject "FonoMobileTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D7894E2488FEB700FEBB69;
+			productRefGroup = 18D789582488FEB700FEBB69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D789562488FEB700FEBB69 /* FonoMobileTask */,
+				18D7896A2488FEB800FEBB69 /* FonoMobileTaskTests */,
+				18D789752488FEB800FEBB69 /* FonoMobileTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D789552488FEB700FEBB69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D789652488FEB700FEBB69 /* LaunchScreen.storyboard in Resources */,
+				18D789622488FEB700FEBB69 /* Assets.xcassets in Resources */,
+				18D789602488FEB700FEBB69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D789692488FEB800FEBB69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D789742488FEB800FEBB69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		023AA0E3B3E07AF5D070CCCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FonoMobileTask-FonoMobileTaskUITests/Pods-FonoMobileTask-FonoMobileTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FonoMobileTask-FonoMobileTaskUITests/Pods-FonoMobileTask-FonoMobileTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FonoMobileTask-FonoMobileTaskUITests/Pods-FonoMobileTask-FonoMobileTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97138D55014CF968B5602C6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FonoMobileTask/Pods-FonoMobileTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FonoMobileTask/Pods-FonoMobileTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FonoMobileTask/Pods-FonoMobileTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBFF576F53EBE3BE7EC73DBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FonoMobileTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1791E2E2C2D503D8E145854 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FonoMobileTask-FonoMobileTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7FDC9F20D0C5CFD8EDC8A6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FonoMobileTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D789532488FEB700FEBB69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D7895D2488FEB700FEBB69 /* ViewController.swift in Sources */,
+				18D7895B2488FEB700FEBB69 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D789672488FEB800FEBB69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D789702488FEB800FEBB69 /* FonoMobileTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D789722488FEB800FEBB69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D7897B2488FEB800FEBB69 /* FonoMobileTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18D7896D2488FEB800FEBB69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D789562488FEB700FEBB69 /* FonoMobileTask */;
+			targetProxy = 18D7896C2488FEB800FEBB69 /* PBXContainerItemProxy */;
+		};
+		18D789782488FEB800FEBB69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D789562488FEB700FEBB69 /* FonoMobileTask */;
+			targetProxy = 18D789772488FEB800FEBB69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18D7895E2488FEB700FEBB69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D7895F2488FEB700FEBB69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D789632488FEB700FEBB69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D789642488FEB700FEBB69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D7897D2488FEB800FEBB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18D7897E2488FEB800FEBB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D789802488FEB800FEBB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD227B218012C96B48B2556A /* Pods-FonoMobileTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FonoMobileTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-yourParts.FonoMobileTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D789812488FEB800FEBB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD3730E2018B04D0404E5BF1 /* Pods-FonoMobileTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FonoMobileTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-yourParts.FonoMobileTask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18D789832488FEB800FEBB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94E37F354664BF9A49F00A5B /* Pods-FonoMobileTaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FonoMobileTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-yourParts.FonoMobileTaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FonoMobileTask.app/FonoMobileTask";
+			};
+			name = Debug;
+		};
+		18D789842488FEB800FEBB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7E30ED04F928735427E1F7D /* Pods-FonoMobileTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FonoMobileTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-yourParts.FonoMobileTaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FonoMobileTask.app/FonoMobileTask";
+			};
+			name = Release;
+		};
+		18D789862488FEB800FEBB69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD497F45E30F80AB474A905 /* Pods-FonoMobileTask-FonoMobileTaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FonoMobileTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-yourParts.FonoMobileTaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FonoMobileTask;
+			};
+			name = Debug;
+		};
+		18D789872488FEB800FEBB69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FA59F4F5AAB045BA7938372 /* Pods-FonoMobileTask-FonoMobileTaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FonoMobileTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-yourParts.FonoMobileTaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FonoMobileTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D789522488FEB700FEBB69 /* Build configuration list for PBXProject "FonoMobileTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D7897D2488FEB800FEBB69 /* Debug */,
+				18D7897E2488FEB800FEBB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D7897F2488FEB800FEBB69 /* Build configuration list for PBXNativeTarget "FonoMobileTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D789802488FEB800FEBB69 /* Debug */,
+				18D789812488FEB800FEBB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D789822488FEB800FEBB69 /* Build configuration list for PBXNativeTarget "FonoMobileTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D789832488FEB800FEBB69 /* Debug */,
+				18D789842488FEB800FEBB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D789852488FEB800FEBB69 /* Build configuration list for PBXNativeTarget "FonoMobileTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D789862488FEB800FEBB69 /* Debug */,
+				18D789872488FEB800FEBB69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D7894F2488FEB700FEBB69 /* Project object */;
+}
