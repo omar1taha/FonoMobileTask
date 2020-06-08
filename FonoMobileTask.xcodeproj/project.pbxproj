@@ -24,6 +24,9 @@
 		18D7899B2489079100FEBB69 /* firstTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7899A2489079100FEBB69 /* firstTabViewModel.swift */; };
 		18D7899E2489082900FEBB69 /* device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7899D2489082900FEBB69 /* device.swift */; };
 		2ED7CD152B773BF301914E55 /* Pods_FonoMobileTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D90067FE9251054E681CA0 /* Pods_FonoMobileTask.framework */; };
+		3903F452248E2FED006BE55F /* secondTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903F451248E2FED006BE55F /* secondTabViewModel.swift */; };
+		3903F455248E5677006BE55F /* compareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903F454248E5677006BE55F /* compareViewController.swift */; };
+		3903F457248E576A006BE55F /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903F456248E576A006BE55F /* Cells.swift */; };
 		44EB25C7A658097CA6D40848 /* Pods_FonoMobileTask_FonoMobileTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 391474D58C19775FC02357C9 /* Pods_FonoMobileTask_FonoMobileTaskUITests.framework */; };
 		B96913A799214306C0DF6E6D /* Pods_FonoMobileTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED3067E2919CA9FAC6CC3A2 /* Pods_FonoMobileTaskTests.framework */; };
 /* End PBXBuildFile section */
@@ -68,6 +71,9 @@
 		18D78997248906D300FEBB69 /* URLConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
 		18D7899A2489079100FEBB69 /* firstTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstTabViewModel.swift; sourceTree = "<group>"; };
 		18D7899D2489082900FEBB69 /* device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = device.swift; sourceTree = "<group>"; };
+		3903F451248E2FED006BE55F /* secondTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondTabViewModel.swift; sourceTree = "<group>"; };
+		3903F454248E5677006BE55F /* compareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compareViewController.swift; sourceTree = "<group>"; };
+		3903F456248E576A006BE55F /* Cells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
 		391474D58C19775FC02357C9 /* Pods_FonoMobileTask_FonoMobileTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FonoMobileTask_FonoMobileTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA59F4F5AAB045BA7938372 /* Pods-FonoMobileTask-FonoMobileTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FonoMobileTask-FonoMobileTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-FonoMobileTask-FonoMobileTaskUITests/Pods-FonoMobileTask-FonoMobileTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		94E37F354664BF9A49F00A5B /* Pods-FonoMobileTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FonoMobileTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-FonoMobileTaskTests/Pods-FonoMobileTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,14 +138,13 @@
 		18D789592488FEB700FEBB69 /* FonoMobileTask */ = {
 			isa = PBXGroup;
 			children = (
+				3903F453248E565A006BE55F /* viewControllers */,
 				18D7899C2489081C00FEBB69 /* Models */,
 				18D789992489074700FEBB69 /* viewModels */,
 				18D78990248902C900FEBB69 /* Cells */,
 				18D7898B2489012400FEBB69 /* Utility */,
 				18D789882488FFDB00FEBB69 /* Clients */,
 				18D7895A2488FEB700FEBB69 /* AppDelegate.swift */,
-				18D7895C2488FEB700FEBB69 /* ViewController.swift */,
-				18C145D4248B7A9000445F3C /* secondTabViewController.swift */,
 				18D7895E2488FEB700FEBB69 /* Main.storyboard */,
 				18D789612488FEB700FEBB69 /* Assets.xcassets */,
 				18D789632488FEB700FEBB69 /* LaunchScreen.storyboard */,
@@ -187,6 +192,7 @@
 		18D78990248902C900FEBB69 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				3903F456248E576A006BE55F /* Cells.swift */,
 				18D78991248902E600FEBB69 /* mobileTableViewCell.swift */,
 				18D78992248902E600FEBB69 /* mobileTableViewCell.xib */,
 			);
@@ -197,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				18D7899A2489079100FEBB69 /* firstTabViewModel.swift */,
+				3903F451248E2FED006BE55F /* secondTabViewModel.swift */,
 			);
 			path = viewModels;
 			sourceTree = "<group>";
@@ -207,6 +214,16 @@
 				18D7899D2489082900FEBB69 /* device.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		3903F453248E565A006BE55F /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18D7895C2488FEB700FEBB69 /* ViewController.swift */,
+				18C145D4248B7A9000445F3C /* secondTabViewController.swift */,
+				3903F454248E5677006BE55F /* compareViewController.swift */,
+			);
+			path = viewControllers;
 			sourceTree = "<group>";
 		};
 		5C4EEE3BEEB4BAAA9A476A02 /* Frameworks */ = {
@@ -474,14 +491,17 @@
 			files = (
 				18D7898A2489000C00FEBB69 /* parentClient.swift in Sources */,
 				18D7895D2488FEB700FEBB69 /* ViewController.swift in Sources */,
+				3903F457248E576A006BE55F /* Cells.swift in Sources */,
 				18D7895B2488FEB700FEBB69 /* AppDelegate.swift in Sources */,
 				18D78998248906D300FEBB69 /* URLConstants.swift in Sources */,
 				18D78993248902E600FEBB69 /* mobileTableViewCell.swift in Sources */,
 				18D7899B2489079100FEBB69 /* firstTabViewModel.swift in Sources */,
 				18D7898F2489017500FEBB69 /* AlertViewer.swift in Sources */,
 				18D7899E2489082900FEBB69 /* device.swift in Sources */,
+				3903F455248E5677006BE55F /* compareViewController.swift in Sources */,
 				18C145D5248B7A9000445F3C /* secondTabViewController.swift in Sources */,
 				18D789962489067300FEBB69 /* getDevicesClient.swift in Sources */,
+				3903F452248E2FED006BE55F /* secondTabViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

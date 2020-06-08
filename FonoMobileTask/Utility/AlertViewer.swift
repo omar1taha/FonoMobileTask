@@ -14,7 +14,7 @@ class AlertViewer: NSObject {
     var timer  = Timer()
     
     func showAlertView(withMessage msg: String,onController controller: UIViewController) {
-        alert = UIAlertController(title: "Phlog", message: msg, preferredStyle: UIAlertController.Style.alert)
+        alert = UIAlertController(title: "YourParts", message: msg, preferredStyle: UIAlertController.Style.alert)
         let okAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default) {
             UIAlertAction in
             self.alert.dismiss(animated: true, completion: nil)
@@ -25,7 +25,7 @@ class AlertViewer: NSObject {
     }
     
     func showAlertViewBtnDynamic(withMessage msg: String,onController controller: UIViewController, btnTitle btn: String) {
-        alert = UIAlertController(title: "Phlog", message: msg, preferredStyle: UIAlertController.Style.alert)
+        alert = UIAlertController(title: "YourParts", message: msg, preferredStyle: UIAlertController.Style.alert)
         let okAction = UIAlertAction(title: btn , style: UIAlertAction.Style.default) {
             UIAlertAction in
             self.alert.dismiss(animated: true, completion: nil)
@@ -36,7 +36,7 @@ class AlertViewer: NSObject {
     }
     
     func showAlertViewWithCustomAction(withMessage msg: String,onController controller: UIViewController, andAction action: @escaping(UIAlertAction)->()) {
-        alert = UIAlertController(title: "Phlog", message: msg, preferredStyle: UIAlertController.Style.alert)
+        alert = UIAlertController(title: "YourParts", message: msg, preferredStyle: UIAlertController.Style.alert)
         let okAction = UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: action)
         let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.default) {
             UIAlertAction in
@@ -57,7 +57,7 @@ class AlertViewer: NSObject {
         var topWindow: UIWindow? = UIWindow(frame: UIScreen.main.bounds)
         topWindow?.rootViewController = UIViewController()
         topWindow?.windowLevel = UIWindow.Level.alert + 1
-        let alert = UIAlertController(title: "Phlog", message: msg, preferredStyle: .alert)
+        let alert = UIAlertController(title: "YourParts", message: msg, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "confirm"), style: .cancel, handler: {(_ action: UIAlertAction) -> Void in
             // continue your work
             // important to hide the window after work completed.

@@ -8,9 +8,12 @@
 //
 
 import UIKit
+import BEMCheckBox
 
 class mobileTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var deviceCheckBox: BEMCheckBox!
+    @IBOutlet weak var accDet: UIImageView!
     @IBOutlet weak var mobileColor: UILabel!
     @IBOutlet weak var mobileName: UILabel!
     @IBOutlet weak var mobileStatus: UILabel!

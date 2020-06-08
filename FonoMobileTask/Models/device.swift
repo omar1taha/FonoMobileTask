@@ -30,7 +30,7 @@ class device : Codable {
     var gps : String?
     var radio : String?
     var usb : String?
-  //  var features_c : String?
+    var isSelected : Bool?
     var battery_c : String?
     var colors : String?
     var sensors : String?

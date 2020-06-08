@@ -78,6 +78,19 @@
                             <constraint firstAttribute="width" constant="25" id="VPo-TM-Hlf"/>
                         </constraints>
                     </imageView>
+                    <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nlA-PU-fyL" customClass="BEMCheckBox">
+                        <rect key="frame" x="270" y="36" width="25" height="25"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="V9j-ig-ipL"/>
+                            <constraint firstAttribute="width" constant="25" id="f2a-ey-otK"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="onTintColor">
+                                <color key="value" red="0.47221612930297852" green="0.72622573375701904" blue="0.92188233137130737" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
                 </subviews>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="j1c-4d-JSC" secondAttribute="trailing" constant="25" id="3Vd-5V-PVi"/>
@@ -85,12 +98,16 @@
                     <constraint firstItem="j1c-4d-JSC" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="FwI-Qo-cf1"/>
                     <constraint firstItem="S1l-Yt-Fmk" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Hof-Et-UOF"/>
                     <constraint firstItem="S1l-Yt-Fmk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="M25-Ld-hVR"/>
+                    <constraint firstItem="nlA-PU-fyL" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Pf0-G5-b5N"/>
+                    <constraint firstAttribute="trailing" secondItem="nlA-PU-fyL" secondAttribute="trailing" constant="25" id="VWR-pT-2J8"/>
                     <constraint firstAttribute="trailing" secondItem="kZu-N3-Gzx" secondAttribute="trailing" constant="25" id="miC-vW-Kc6"/>
                     <constraint firstItem="kZu-N3-Gzx" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="sc0-g0-bYf"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="accDet" destination="kZu-N3-Gzx" id="C8Z-vJ-NC5"/>
+                <outlet property="deviceCheckBox" destination="nlA-PU-fyL" id="L5c-Lf-Ddy"/>
                 <outlet property="mobileColor" destination="rNr-pN-wVT" id="BqG-Dz-Eyk"/>
                 <outlet property="mobileName" destination="Ada-vE-RLY" id="h7T-st-DAc"/>
                 <outlet property="mobileStatus" destination="voa-HI-TGv" id="uwT-tN-hzV"/>
@@ -99,7 +116,7 @@
         </tableViewCell>
     </objects>
     <resources>
-        <image name="iphoneThumb" width="409.60000610351562" height="409.60000610351562"/>
-        <image name="next" width="384" height="384"/>
+        <image name="iphoneThumb" width="256" height="256"/>
+        <image name="next" width="32" height="32"/>
     </resources>
 </document>

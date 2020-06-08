@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
+  - BEMCheckBox (1.4.1)
   - IQKeyboardManagerSwift (6.2.1)
   - NVActivityIndicatorView (4.8.0):
     - NVActivityIndicatorView/Presenter (= 4.8.0)
@@ -7,30 +8,37 @@ PODS:
   - SDWebImage (4.4.8):
     - SDWebImage/Core (= 4.4.8)
   - SDWebImage/Core (4.4.8)
+  - SpreadsheetView (0.8.4)
   - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.4)
+  - BEMCheckBox
   - IQKeyboardManagerSwift (~> 6.2.0)
   - NVActivityIndicatorView
   - SDWebImage (~> 4.0)
+  - SpreadsheetView
   - SwiftyJSON
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - BEMCheckBox
     - IQKeyboardManagerSwift
     - NVActivityIndicatorView
     - SDWebImage
+    - SpreadsheetView
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
   IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
   NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
   SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+  SpreadsheetView: 17c55b6dc82099993cc2ceb818248d19f3220998
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: f6735254efe3e0005a638e0e8c6ce1e9249a944c
+PODFILE CHECKSUM: 166b045f6b000ab8e58b8d09c86df51d85bf229e
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3

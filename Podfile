@@ -12,6 +12,8 @@ target 'FonoMobileTask' do
     	pod 'NVActivityIndicatorView'
     	pod 'IQKeyboardManagerSwift’ , '~> 6.2.0'
     	pod 'SDWebImage', '~> 4.0'
+	pod 'SpreadsheetView'
+	pod 'BEMCheckBox'
 
 
   target 'FonoMobileTaskTests' do
