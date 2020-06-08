@@ -14,20 +14,22 @@ class firstTabViewModel: NSObject {
     
     @IBOutlet var devicesClient : getDevicesClient!
     
-   // var videosArr : [VideosModel] = []
+    var devicesArr : [device] = []
     
     func getAllDevices(onSuccess: @escaping (Bool)->(), onFailure: @escaping (String?)->()) {
         
+        var paramsDic = ["token" : apiToken  , "brand" : "samsung"]
         
-        self.devicesClient.getPhonesFromApi(parameters: [:], onSuccess: { (responseSuccess) in
-            if responseSuccess != JSON.null{
-               // self.videosArr = videoParser().parsePhotos(fromResponse: responseSuccess)
-                onSuccess(true)
-            }else{
-                onSuccess(false)
+        self.devicesClient.getPhonesFromApi(parameters: paramsDic, onSuccess: { (responseSuccess) in
+            
+            do {
+                self.devicesArr = try JSONDecoder().decode([device].self, from: responseSuccess.data!)
+            }catch let err{
+                print(err.localizedDescription)
             }
             
-            
+            onSuccess(true)
+        
         }) { (responseFailure) in
             //onFailure error message from server
             let error = "We encountered error. Try again later"

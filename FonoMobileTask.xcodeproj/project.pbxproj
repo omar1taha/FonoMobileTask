@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18C145D5248B7A9000445F3C /* secondTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C145D4248B7A9000445F3C /* secondTabViewController.swift */; };
 		18D7895B2488FEB700FEBB69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7895A2488FEB700FEBB69 /* AppDelegate.swift */; };
 		18D7895D2488FEB700FEBB69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7895C2488FEB700FEBB69 /* ViewController.swift */; };
 		18D789602488FEB700FEBB69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D7895E2488FEB700FEBB69 /* Main.storyboard */; };
@@ -14,6 +15,14 @@
 		18D789652488FEB700FEBB69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D789632488FEB700FEBB69 /* LaunchScreen.storyboard */; };
 		18D789702488FEB800FEBB69 /* FonoMobileTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7896F2488FEB800FEBB69 /* FonoMobileTaskTests.swift */; };
 		18D7897B2488FEB800FEBB69 /* FonoMobileTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7897A2488FEB800FEBB69 /* FonoMobileTaskUITests.swift */; };
+		18D7898A2489000C00FEBB69 /* parentClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D789892489000C00FEBB69 /* parentClient.swift */; };
+		18D7898F2489017500FEBB69 /* AlertViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7898E2489017500FEBB69 /* AlertViewer.swift */; };
+		18D78993248902E600FEBB69 /* mobileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D78991248902E600FEBB69 /* mobileTableViewCell.swift */; };
+		18D78994248902E600FEBB69 /* mobileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D78992248902E600FEBB69 /* mobileTableViewCell.xib */; };
+		18D789962489067300FEBB69 /* getDevicesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D789952489067300FEBB69 /* getDevicesClient.swift */; };
+		18D78998248906D300FEBB69 /* URLConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D78997248906D300FEBB69 /* URLConstants.swift */; };
+		18D7899B2489079100FEBB69 /* firstTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7899A2489079100FEBB69 /* firstTabViewModel.swift */; };
+		18D7899E2489082900FEBB69 /* device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7899D2489082900FEBB69 /* device.swift */; };
 		2ED7CD152B773BF301914E55 /* Pods_FonoMobileTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D90067FE9251054E681CA0 /* Pods_FonoMobileTask.framework */; };
 		44EB25C7A658097CA6D40848 /* Pods_FonoMobileTask_FonoMobileTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 391474D58C19775FC02357C9 /* Pods_FonoMobileTask_FonoMobileTaskUITests.framework */; };
 		B96913A799214306C0DF6E6D /* Pods_FonoMobileTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED3067E2919CA9FAC6CC3A2 /* Pods_FonoMobileTaskTests.framework */; };
@@ -37,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18C145D4248B7A9000445F3C /* secondTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondTabViewController.swift; sourceTree = "<group>"; };
 		18D789572488FEB700FEBB69 /* FonoMobileTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FonoMobileTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D7895A2488FEB700FEBB69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D7895C2488FEB700FEBB69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +60,14 @@
 		18D789762488FEB800FEBB69 /* FonoMobileTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FonoMobileTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D7897A2488FEB800FEBB69 /* FonoMobileTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FonoMobileTaskUITests.swift; sourceTree = "<group>"; };
 		18D7897C2488FEB800FEBB69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D789892489000C00FEBB69 /* parentClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parentClient.swift; sourceTree = "<group>"; };
+		18D7898E2489017500FEBB69 /* AlertViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewer.swift; sourceTree = "<group>"; };
+		18D78991248902E600FEBB69 /* mobileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobileTableViewCell.swift; sourceTree = "<group>"; };
+		18D78992248902E600FEBB69 /* mobileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mobileTableViewCell.xib; sourceTree = "<group>"; };
+		18D789952489067300FEBB69 /* getDevicesClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getDevicesClient.swift; sourceTree = "<group>"; };
+		18D78997248906D300FEBB69 /* URLConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
+		18D7899A2489079100FEBB69 /* firstTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstTabViewModel.swift; sourceTree = "<group>"; };
+		18D7899D2489082900FEBB69 /* device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = device.swift; sourceTree = "<group>"; };
 		391474D58C19775FC02357C9 /* Pods_FonoMobileTask_FonoMobileTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FonoMobileTask_FonoMobileTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA59F4F5AAB045BA7938372 /* Pods-FonoMobileTask-FonoMobileTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FonoMobileTask-FonoMobileTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-FonoMobileTask-FonoMobileTaskUITests/Pods-FonoMobileTask-FonoMobileTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		94E37F354664BF9A49F00A5B /* Pods-FonoMobileTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FonoMobileTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-FonoMobileTaskTests/Pods-FonoMobileTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,8 +132,14 @@
 		18D789592488FEB700FEBB69 /* FonoMobileTask */ = {
 			isa = PBXGroup;
 			children = (
+				18D7899C2489081C00FEBB69 /* Models */,
+				18D789992489074700FEBB69 /* viewModels */,
+				18D78990248902C900FEBB69 /* Cells */,
+				18D7898B2489012400FEBB69 /* Utility */,
+				18D789882488FFDB00FEBB69 /* Clients */,
 				18D7895A2488FEB700FEBB69 /* AppDelegate.swift */,
 				18D7895C2488FEB700FEBB69 /* ViewController.swift */,
+				18C145D4248B7A9000445F3C /* secondTabViewController.swift */,
 				18D7895E2488FEB700FEBB69 /* Main.storyboard */,
 				18D789612488FEB700FEBB69 /* Assets.xcassets */,
 				18D789632488FEB700FEBB69 /* LaunchScreen.storyboard */,
@@ -142,6 +166,49 @@
 			path = FonoMobileTaskUITests;
 			sourceTree = "<group>";
 		};
+		18D789882488FFDB00FEBB69 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				18D789892489000C00FEBB69 /* parentClient.swift */,
+				18D789952489067300FEBB69 /* getDevicesClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		18D7898B2489012400FEBB69 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				18D7898E2489017500FEBB69 /* AlertViewer.swift */,
+				18D78997248906D300FEBB69 /* URLConstants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		18D78990248902C900FEBB69 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				18D78991248902E600FEBB69 /* mobileTableViewCell.swift */,
+				18D78992248902E600FEBB69 /* mobileTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		18D789992489074700FEBB69 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				18D7899A2489079100FEBB69 /* firstTabViewModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+		18D7899C2489081C00FEBB69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18D7899D2489082900FEBB69 /* device.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		5C4EEE3BEEB4BAAA9A476A02 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +229,6 @@
 				94E37F354664BF9A49F00A5B /* Pods-FonoMobileTaskTests.debug.xcconfig */,
 				A7E30ED04F928735427E1F7D /* Pods-FonoMobileTaskTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -278,6 +344,7 @@
 				18D789652488FEB700FEBB69 /* LaunchScreen.storyboard in Resources */,
 				18D789622488FEB700FEBB69 /* Assets.xcassets in Resources */,
 				18D789602488FEB700FEBB69 /* Main.storyboard in Resources */,
+				18D78994248902E600FEBB69 /* mobileTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,8 +472,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D7898A2489000C00FEBB69 /* parentClient.swift in Sources */,
 				18D7895D2488FEB700FEBB69 /* ViewController.swift in Sources */,
 				18D7895B2488FEB700FEBB69 /* AppDelegate.swift in Sources */,
+				18D78998248906D300FEBB69 /* URLConstants.swift in Sources */,
+				18D78993248902E600FEBB69 /* mobileTableViewCell.swift in Sources */,
+				18D7899B2489079100FEBB69 /* firstTabViewModel.swift in Sources */,
+				18D7898F2489017500FEBB69 /* AlertViewer.swift in Sources */,
+				18D7899E2489082900FEBB69 /* device.swift in Sources */,
+				18C145D5248B7A9000445F3C /* secondTabViewController.swift in Sources */,
+				18D789962489067300FEBB69 /* getDevicesClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

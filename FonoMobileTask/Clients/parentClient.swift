@@ -22,7 +22,7 @@ class parentClient: NSObject {
     
 
     
-    func communicateWithApi(url: String?, pagingUrl:String?, method: HTTPMethod, parameters: [String:String]?, onSuccess: @escaping (JSON) -> Void, onFailure: @escaping (JSON) -> Void) {
+    func communicateWithApi(url: String?, pagingUrl:String?, method: HTTPMethod, parameters: [String:String]?, onSuccess: @escaping (DataResponse<Any>) -> Void, onFailure: @escaping (JSON) -> Void) {
         
         var apiURL: URL?
         if url != nil {
@@ -43,15 +43,7 @@ class parentClient: NSObject {
             
             if response.response?.statusCode == 200 {
                 
-                do{
-                    let responseJson = try JSON(data: response.data!)
-                    //print(responseJson)
-                    onSuccess(responseJson)
-                }catch _{
-                    //print(error)
-                    onSuccess(JSON.null)
-                }
-                
+              onSuccess(response)
                 
             }else if response.response?.statusCode == 400{
                 

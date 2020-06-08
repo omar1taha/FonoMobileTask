@@ -13,8 +13,7 @@ import SwiftyJSON
 class getDevicesClient: parentClient{
     
     
-    func getPhonesFromApi(parameters: [String: String] , onSuccess: @escaping (JSON) -> (), onFailure: @escaping (JSON) -> ()){
-            //videosURL
+    func getPhonesFromApi(parameters: [String: String] , onSuccess: @escaping (DataResponse<Any>) -> (), onFailure: @escaping (JSON) -> ()){
             self.communicateWithApi(url: getDevices_URL, pagingUrl: nil, method: .post, parameters: parameters, onSuccess: onSuccess, onFailure: onFailure)
         }
         
