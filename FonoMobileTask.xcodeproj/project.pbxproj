@@ -24,6 +24,7 @@
 		18D7899B2489079100FEBB69 /* firstTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7899A2489079100FEBB69 /* firstTabViewModel.swift */; };
 		18D7899E2489082900FEBB69 /* device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7899D2489082900FEBB69 /* device.swift */; };
 		2ED7CD152B773BF301914E55 /* Pods_FonoMobileTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D90067FE9251054E681CA0 /* Pods_FonoMobileTask.framework */; };
+		39038F02248F96A700290BEF /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39038F01248F96A700290BEF /* settingsViewController.swift */; };
 		3903F452248E2FED006BE55F /* secondTabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903F451248E2FED006BE55F /* secondTabViewModel.swift */; };
 		3903F455248E5677006BE55F /* compareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903F454248E5677006BE55F /* compareViewController.swift */; };
 		3903F457248E576A006BE55F /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3903F456248E576A006BE55F /* Cells.swift */; };
@@ -71,6 +72,7 @@
 		18D78997248906D300FEBB69 /* URLConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConstants.swift; sourceTree = "<group>"; };
 		18D7899A2489079100FEBB69 /* firstTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstTabViewModel.swift; sourceTree = "<group>"; };
 		18D7899D2489082900FEBB69 /* device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = device.swift; sourceTree = "<group>"; };
+		39038F01248F96A700290BEF /* settingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
 		3903F451248E2FED006BE55F /* secondTabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondTabViewModel.swift; sourceTree = "<group>"; };
 		3903F454248E5677006BE55F /* compareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compareViewController.swift; sourceTree = "<group>"; };
 		3903F456248E576A006BE55F /* Cells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
@@ -222,6 +224,7 @@
 				18D7895C2488FEB700FEBB69 /* ViewController.swift */,
 				18C145D4248B7A9000445F3C /* secondTabViewController.swift */,
 				3903F454248E5677006BE55F /* compareViewController.swift */,
+				39038F01248F96A700290BEF /* settingsViewController.swift */,
 			);
 			path = viewControllers;
 			sourceTree = "<group>";
@@ -502,6 +505,7 @@
 				18C145D5248B7A9000445F3C /* secondTabViewController.swift in Sources */,
 				18D789962489067300FEBB69 /* getDevicesClient.swift in Sources */,
 				3903F452248E2FED006BE55F /* secondTabViewModel.swift in Sources */,
+				39038F02248F96A700290BEF /* settingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,12 +682,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M78AXJH3EJ;
 				INFOPLIST_FILE = FonoMobileTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-yourParts.FonoMobileTask";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourParts.FonoMobileTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -696,12 +701,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M78AXJH3EJ;
 				INFOPLIST_FILE = FonoMobileTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-yourParts.FonoMobileTask";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourParts.FonoMobileTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
